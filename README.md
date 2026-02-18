@@ -29,6 +29,17 @@ npx skills add chrbailey/agent-security-skills
 npx skills add chrbailey/agent-security-skills/securing-ai-generated-code
 ```
 
+## Validated at Scale
+
+Tested against **2.8 million lines of code** across 10 open-source repositories (Next.js, Strapi, cal.com, NocoDB, Outline, Payload, Medusa, Express, OWASP Juice Shop, OWASP NodeGoat).
+
+- **14,900 findings** across 16 detection patterns
+- **All 16 patterns** produced non-zero results -- no dead patterns
+- True positives confirmed in production code from cal.com, Strapi, NocoDB, and Medusa
+- Known-vulnerable repos (Juice Shop, NodeGoat) validate pattern accuracy
+
+Full results: [validation/RESULTS.md](validation/RESULTS.md)
+
 ## Philosophy
 
 These skills enforce **pre-execution governance** -- validating agent actions *before* they run, not auditing them after. They are:
