@@ -253,3 +253,12 @@ rg -n '\b(terraform\s+destroy|kubectl\s+delete|docker\s+rm\s+-f)\b'
 ```
 
 These patterns are not exhaustive. When in doubt, check the full catalog in [references/destructive-commands.md](references/destructive-commands.md).
+
+## The Bottom Line
+
+- Every destructive operation requires the 4-Point Check before execution
+- If you cannot explain the blast radius, you cannot run the command
+- The Never List is non-negotiable -- no exceptions, no shortcuts
+- Reversibility is a property of the operation, not your confidence level
+- State what will happen, get explicit approval, then execute
+- When in doubt, ask. The cost of asking is zero. The cost of data loss is not.

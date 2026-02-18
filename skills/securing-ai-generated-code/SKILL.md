@@ -294,3 +294,12 @@ rg -in '(TODO|FIXME|HACK|XXX).*(security|auth|secret|password|credential|inject|
 ```bash
 rg -n '\b(eval|Function)\s*\(' --glob '*.{js,ts}' | rg -v 'node_modules|\.test\.|\.spec\.'
 ```
+
+## The Bottom Line
+
+- Run the mandatory checklist on EVERY AI-generated file before committing
+- AI-generated vulnerabilities cluster -- finding one means check harder for others
+- Secrets, injection, and missing auth are the top three categories
+- Automated scans catch the obvious cases; manual review catches the rest
+- Fix before committing. Never commit with a TODO to fix later
+- If ANY red flag pattern is found, reject the change entirely

@@ -1,6 +1,6 @@
 ---
 name: preventing-agent-overreach
-description: Scope guard that prevents AI agents from exceeding task boundaries. Enforces the principle of minimal action — do exactly what was asked, nothing more. Use when delegating tasks to AI agents, when an agent starts modifying files beyond the original request, or when generated code includes unnecessary abstractions, features, or refactoring.
+description: Scope guard that prevents AI agents from exceeding task boundaries. Enforces the principle of minimal action -- do exactly what was asked, nothing more. Use when delegating tasks to AI agents, when an agent starts modifying files beyond the original request, or when generated code includes unnecessary abstractions, features, or refactoring.
 ---
 
 # Preventing Agent Overreach
