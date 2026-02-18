@@ -23,10 +23,10 @@ Pre-execution security and governance skills for AI coding agents. Works with Cl
 
 ```bash
 # All skills
-npx skills add cbailey/agent-security-skills
+npx skills add chrbailey/agent-security-skills
 
 # Individual skill
-npx skills add cbailey/agent-security-skills/securing-ai-generated-code
+npx skills add chrbailey/agent-security-skills/securing-ai-generated-code
 ```
 
 ## Philosophy
